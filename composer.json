@@ -1,0 +1,20 @@
+{
+  "name": "retemcall/toolsext",
+  "description": "字符串、数组、浮点处理扩展",
+  "license":"MIT",
+  "authors": [
+    {
+      "name": "retemcall",
+      "email": "retemcall@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "toolsext\\": "src/"
+    }
+  },
+  "prefer-stable": true
+}
